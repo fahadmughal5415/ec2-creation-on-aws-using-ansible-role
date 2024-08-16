@@ -14,9 +14,9 @@ Role Variables
 --------------
 
 The following variables can be set in your playbook or passed as parameters:
-instance_type: The type of EC2 instance to launch. Defaults to `t2.micro`.
-region: The AWS region where the EC2 instance will be created. Defaults to `us-east-1`.
-image_id: The IMAGE ID to used for the instance.
+- instance_type: The type of EC2 instance to launch. Defaults to `t2.micro`.
+- region: The AWS region where the EC2 instance will be created. Defaults to `us-east-1`.
+- image_id: The IMAGE ID to used for the instance.
 
 Note:
 All of the above variables are already declared in the ec2/defaults/main.yml.
