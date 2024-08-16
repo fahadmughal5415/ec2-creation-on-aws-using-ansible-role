@@ -1,20 +1,39 @@
 ---
+dependencies: []
+
 galaxy_info:
+  role_name: create_ec2_instance_on_aws
   author: Fahad Mughal
   description: This Ansible role is designed to create EC2 instances on AWS using Ansible collections and Boto3. It simplifies the process of deploying EC2 instances by automating tasks through Ansible playbooks.
   company: bdphone.com
-  
-  license: license (GPL-2.0-or-later, MIT, etc)
-
+  license: "GPL-2.0-or-later"
   min_ansible_version: 2.1
-
+  platforms:
+    - name: Amazon
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+        - jammy
+    - name: CentOS
+      versions:
+        - 7
+        - 8
+    - name: RedHat
+      versions:
+        - 7
+        - 8
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
   galaxy_tags:
-    aws
-    ec2
-    ansible
-    automation
-    boto3
-    cloud
-    collection
-
-dependencies: []
+    - aws
+    - ec2
+    - ansible
+    - automation
+    - boto3
+    - cloud
+    - collection
