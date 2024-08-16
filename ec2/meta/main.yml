@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Fahad Mughal
   description: This Ansible role is designed to create EC2 instances on AWS using Ansible collections and Boto3. It simplifies the process of deploying EC2 instances by automating tasks through Ansible playbooks.
