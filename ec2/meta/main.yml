@@ -17,5 +17,4 @@ galaxy_info:
     cloud
     collection
 
-dependencies:
-  This role has no dependencies on other roles
+dependencies: []
