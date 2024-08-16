@@ -1,17 +1,20 @@
-Role Name
+Create EC2 Instance on AWS
 =========
 
-A brief description of the role goes here.
+This Ansible role automates the process of creating EC2 instances on AWS using Ansible collections and Boto3. It provides a streamlined way to deploy and manage EC2 instances.
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+- Ansible version 2.1 or higher.
+- AWS credentials configured on the system where Ansible is executed.
+- Boto3 and botocore Python packages installed on the Ansible control node.
 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+The following variables can be set in your playbook or passed as parameters:
+
 
 Dependencies
 ------------
