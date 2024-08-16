@@ -37,9 +37,9 @@ Example Playbook
 License
 -------
 
-BSD
+GPL-2.0-or-later
 
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Fahad Mughal - DevOps Engineer at BDPhone.com
