@@ -14,21 +14,25 @@ Role Variables
 --------------
 
 The following variables can be set in your playbook or passed as parameters:
+instance_type: The type of EC2 instance to launch. Defaults to `t2.micro`.
+region: The AWS region where the EC2 instance will be created. Defaults to `us-east-1`.
+image_id: The IMAGE ID to used for the instance.
 
+Note:
+All of the above variables are already declared in the ec2/defaults/main.yml.
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+This role does not have any dependencies on other Ansible roles.
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
+    - hosts: localhost
+      connection: local
       roles:
-         - { role: username.rolename, x: 42 }
+         - ec2
 
 License
 -------
